@@ -32,6 +32,11 @@ vue add unit-jest
 pnpm install
 ```
 
+### Add command script package.json
+```json
+++ "test:watch": "jest --verbose --watch",
+```
+
 ### References
 [Git vuejs/test-utils](https://github.com/vuejs/test-utils/)\
 [Guide test-utils](https://test-utils.vuejs.org/guide/)\
