@@ -33,6 +33,6 @@ pnpm install
 ```
 
 ### References
-[Git vuejs/test-utils](https://github.com/vuejs/test-utils/)
-[Guide test-utils](https://test-utils.vuejs.org/guide/)
-[Jest Docs](https://jestjs.io/docs/getting-started)
+[Git vuejs/test-utils](https://github.com/vuejs/test-utils/)\
+[Guide test-utils](https://test-utils.vuejs.org/guide/)\
+[Jest Docs](https://jestjs.io/docs/getting-started)\
