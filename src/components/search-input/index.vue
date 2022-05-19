@@ -22,13 +22,13 @@ const searchQuery = computed({
   get() {
     return props.value;
   },
-  set(val) {
+  set(val: string) {
     emits('input', val);
   },
 });
 
 const clearValue = () => {
-  throw new Error('Not implemented');
+  emits('input', '');
 };
 </script>
 <style scoped>

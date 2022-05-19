@@ -6,7 +6,12 @@
 </template>
 
 <script setup lang="ts">
+import { defineComponent } from 'vue';
 import SearchInput from './components/search-input/index.vue';
+
+defineComponent({
+  name: 'App',
+});
 
 const search = '';
 </script>
