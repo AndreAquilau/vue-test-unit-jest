@@ -1,13 +1,14 @@
 <template>
-  <h1>Introdução ao vue test utils</h1>
+  <div class="componet-box">
+    <h1>Introdução ao vue test utils</h1>
+    <search-input :value="search" />
+  </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script setup lang="ts">
+import SearchInput from './components/search-input/index.vue';
 
-export default defineComponent({
-  name: 'App',
-});
+const search = '';
 </script>
 
 <style>
@@ -24,6 +25,7 @@ export default defineComponent({
   justify-content: center;
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 .component-box {
